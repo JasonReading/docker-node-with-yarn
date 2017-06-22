@@ -11,3 +11,5 @@ RUN apt-get update && \
         apt-get update && \
         apt-get install -y yarn && \
         rm -rf /var/lib/apt/lists/*
+
+ENV PYTHON /usr/bin/python2.7
